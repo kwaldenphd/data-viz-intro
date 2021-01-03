@@ -16,25 +16,19 @@ This tutorial is licensed under a <a href="http://creativecommons.org/licenses/b
 
 # Overview
 
-When first learning how to programatically generate data visualizations, it's easy to be overwhelmed by syntax nuances.
-
-Let's take a step back and think through ***why*** we want or need to visualize data.
+When first learning how to programatically generate data visualizations, it's easy to be overwhelmed by syntax nuances. Let's take a step back and think through ***why*** we want or need to visualize data.
 
 A quote from NYU engineering faculty Enrico Bertini, whose reserach looks at visual representations of information:
 
-"Visualization projects with high visibility focus on two main purposes: inspiration and explanation. Visualization can however be used (and is actually used) to increase understanding of complex problems through data analysis. These project are less visible but by no means less important...The main goal here is to extract information out of data with the purpose of answering questions and advancing understanding of some phenomenon of interest"
+<blockquote>"Visualization projects with high visibility focus on two main purposes: inspiration and explanation. Visualization can however be used (and is actually used) to increase understanding of complex problems through data analysis. These project are less visible but by no means less important...The main goal here is to extract information out of data with the purpose of answering questions and advancing understanding of some phenomenon of interest."</blockquote>
 
-Citation: Enrico Bertini, ["From Data Visualization to Interactive Data Analysis"](https://medium.com/@FILWD/from-data-visualization-to-interactive-data-analysis-e24ae3751bf3) *Medium* (28 November 2017).
+<blockquote>Citation: Enrico Bertini, <a href="https://medium.com/@FILWD/from-data-visualization-to-interactive-data-analysis-e24ae3751bf3">From Data Visualization to Interactive Data Analysis</a> <i>Medium</i> (28 November 2017).</blockquote>
 
-We can think of data visualization as a means or tool that enables us to do things like...
+4. We can think of data visualization as a means or tool that enables us to do things like...
 - Analyze an unmanageably large body of primary source materials
 - Bring together a range of data sets that require computation tools to connect, integrate, or synthesize disparate elements
 
-This page is not designed to be an exhaustive resource on how to approach data visualization as an act of communication.
-
-What it does attempt to do is highlight resources and approaches that cover some preliminary condsiderations.
-
-It also highlights work that grounds data visualization in the core tenents of intersectional feminist theory and activism.
+This page is not designed to be an exhaustive resource on how to approach data visualization as an act of communication. What it does attempt to do is highlight resources and approaches that cover some preliminary condsiderations. It also highlights work that grounds data visualization in the core tenents of intersectional feminist theory and activism.
 
 # Choosing a Chart Type
 
@@ -58,25 +52,19 @@ Some core questions to ask when building a visualization:
 - Is this going to be a static visualization, or is there a dynamic component (i.e. showing change over time)?
 
 Once you have a sense of what you want the visualization to accomplish, you can make strategic choices about visualization options.
-
-The [A. Abela graphic](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) featured above is a good place to start.
-
-Peter Aldhous's *Intro Data Viz* course (Fall 2016) includes useful questions to consider.
+ - The [A. Abela graphic](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf) featured above is a good place to start.
+- Peter Aldhous's *Intro Data Viz* course (Fall 2016) includes useful questions to consider.
 - ["Data visualization: basic principles"](http://paldhous.github.io/ucb/2016/dataviz/week2.html)
 
 <p align="center"><a href="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_2.png?raw=true" /></a></p>
 
 Image source: [Ferdio's DataVizProject](https://datavizproject.com/)
 
-Ferdio's DataVisProject also includes examples of a wide range of visualization types.
-
-You can explore the library by visualization type, data structure, function, and shape.
+Ferdio's DataVisProject also includes examples of a wide range of visualization types. You can explore the library by visualization type, data structure, function, and shape.
 
 # Working With Visual Cues
 
-The wide range of customization or styling options when building a visualization can be overwhelming.
-
-We can think of these style elements as visual cues that can help a visualization achieve a desired communication or rhetorical goal.
+The wide range of customization or styling options when building a visualization can be overwhelming. We can think of these style elements as visual cues that can help a visualization achieve a desired communication or rhetorical goal.
 
 <p align="center"><a href="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_3.png?raw=true" /></a></p>
 
@@ -91,23 +79,13 @@ Common visual cues:
 - Area
 - Color intensity
 
-To have meaningful visual cues, make sure the math adds up.
-
-That is, make sure you know what arithemtic operations are happening in the process of generating the visualization.
-
-One component of making sure the math adds up is knowing how the chart type you have chosen interacts with the underlying data.
-
-Another component, particularly for more complex statistical visualizations, is to make sure the visualization is communicating what you intend.
+To have meaningful visual cues, make sure the math adds up. That is, make sure you know what arithemtic operations are happening in the process of generating the visualization. One component of making sure the math adds up is knowing how the chart type you have chosen interacts with the underlying data. Another component, particularly for more complex statistical visualizations, is to make sure the visualization is communicating what you intend.
 
 A great place to start for making sure the math adds up is Carl Bregstrom and Jevin West's *Calling Bullshit: Data Reasoning in a Digital World* open curriculum and book.
+- The [open curriculum](https://www.callingbullshit.org/index.html) covers topics like causality, statistical traps, sample size, correlation, and selection bias in relation to data analysis and visualization.
+- Their book [*Calling Bullshit: The Art of Skepticism in a Data-Driven World*](https://www.penguinrandomhouse.com/books/563882/calling-bullshit-by-carl-t-bergstrom-and-jevin-d-west/) (Penguin Random House, 2020) is also a useful resource.
 
-The [open curriculum](https://www.callingbullshit.org/index.html) covers topics like causality, statistical traps, sample size, correlation, and selection bias in relation to data analysis and visualization.
-
-Their book [*Calling Bullshit: The Art of Skepticism in a Data-Driven World*](https://www.penguinrandomhouse.com/books/563882/calling-bullshit-by-carl-t-bergstrom-and-jevin-d-west/) (Penguin Random House, 2020) is also a useful resource.
-
-Meaningful visual cues are also true to the 'feel' of the data. 
-
-This requires knowing enough about the underlying dataset to know when a visualization is not accurately representing the underlying data.
+Meaningful visual cues are also true to the 'feel' of the data. This requires knowing enough about the underlying dataset to know when a visualization is not accurately representing the underlying data.
 
 Summary statistics or descriptive statistics are a useful place to start.
 - Non-programming resources
@@ -123,11 +101,7 @@ Summary statistics or descriptive statistics are a useful place to start.
   * Danielle Navarro, [*Learning Statistics With R: A Tutorial for Psychology Students and Other Beginners*](https://learningstatisticswithr.com/book/) (2019)
   * [Stats2Labs](https://stat2labs.sites.grinnell.edu/) project website
   
-One overarching principle to keep in mind is that data visualization is an act of communication, and visual representation of information is inherently a form of storytelling.
-
-Spending time thinking abstractly or conceptually about what a data visualization needs to accomplish or communicate is immensely valuable.
-
-There are a range of words or terms that can describe this activity, including storyboarding or sketching.
+One overarching principle to keep in mind is that data visualization is an act of communication, and visual representation of information is inherently a form of storytelling. Spending time thinking abstractly or conceptually about what a data visualization needs to accomplish or communicate is immensely valuable. There are a range of words or terms that can describe this activity, including storyboarding or sketching.
 
 A wonderful place to start is the work of data artist Giorgia Lupi.
 - [Data Humanism, The Revolution will be Visualized](http://giorgialupi.com/data-humanism-my-manifesto-for-a-new-data-wold) *PrintMag* (30 January 2017)
@@ -155,30 +129,22 @@ The following elements can appear in a data visualization via a wide range of de
 - Legend
 - Source information
 
-It is also critically important to make sure the visualization will be accessible to the widest range of possible users.
-
-Prioritizing accessibility shapes color choices and visual style options, but also underscores the need to have a deep grasp on what you are trying to accomplish in a visualization.
+It is also critically important to make sure the visualization will be accessible to the widest range of possible users. Prioritizing accessibility shapes color choices and visual style options, but also underscores the need to have a deep grasp on what you are trying to accomplish in a visualization.
 
 Some of the questions to consider include...
+- Is your visualization's color scheme/pallete/map accessible for individuals with color blindness?
+- Are your visualization's color components or other visual cues going to be legible in the final publishing medium or format? 
+  * For example, you may have a visualization that is readable on a large projection screen but not on letter-size paper.
+- Can someone interacting with your visualization easily access the data driving the visualization? 
+  * In situations where you are working with proprietary, sensitive, or licensed data, providing the full back-end dataset may not always be possible.
+  * At the very minimum, a citation to the data source is needed.
+  * When possible, document the steps taken and changes made to the data from its original form in the process generating the visualization
+  * The gold standard here is reproducibility, with code/scripts and data available to end users
+- Is the visualization the only way or place this information is communicated?
+  * Imagine a situation where a visually impaired person is interacting with your visualization. 
+  * Having multiple points of entry or forms of representation for the information contained in the visualization ensures this information is available to the widest possible range of users.
 
-Is your visualization's color scheme/pallete/map accessible for individuals with color blindness?
-
-Are your visualization's color components or other visual cues going to be legible in the final publishing medium or format? 
-- For example, you may have a visualization that is readable on a large projection screen but not on letter-size paper.
-
-Can someone interacting with your visualization easily access the data driving the visualization? 
-- In situations where you are working with proprietary, sensitive, or licensed data, providing the full back-end dataset may not always be possible.
-- At the very minimum, a citation to the data source is needed.
-- When possible, document the steps taken and changes made to the data from its original form in the process generating the visualization
-- The gold standard here is reproducibility, with code/scripts and data available to end users
-
-Is the visualization the only way or place this information is communicated?
-- Imagine a situation where a visually impaired person is interacting with your visualization. 
-- Having multiple points of entry or forms of representation for the information contained in the visualization ensures this information is available to the widest possible range of users.
-
-Things like alt text, plain-text tables, captions, narrative text, etc. can all help improve the accessibility of data visualizations.
-
-Axis Maps's [Colorbrewer2.0](https://colorbrewer2.org/) is a useful tool for finding accessible color palletes.
+Things like alt text, plain-text tables, captions, narrative text, etc. can all help improve the accessibility of data visualizations. Axis Maps's [Colorbrewer2.0](https://colorbrewer2.org/) is a useful tool for finding accessible color palletes.
 
 # Data Communication, Justice, and Power
 
@@ -191,37 +157,30 @@ Data can be used to create communities, advance research, and expose injustice. 
 Understanding the fundamental relationship between data (visualization) and power prompts us to consider the impact data visualizations we create have.
 
 We could spend an entire semester addressing this historical context and considering how patterns of injustice and inequity relate to the work of data analysis and communication.
-- *ND students--Professor Walden's "Data Feminism" course does just this and is typically offered alternating fall semesters (2022, 2024).
+- *ND students--Professor Walden's "Data Feminism" course does just this and is typically offered alternating fall semesters (2022, 2024).*
 
 For now, a few resources that are leading the way in this area.
-
-[Feminist Data Manifest-No](https://www.manifestno.com/)
-- "The Manifest-No is a declaration of refusal and commitment. It refuses harmful data regimes and commits to new data futures." 
-- Cifor, M., Garcia, P., Cowan, T.L., Rault, J., Sutherland, T., Chan, A., Rode, J., Hoffmann, A.L., Salehi, N., Nakamura, L. (2019). Feminist Data Manifest-No. Retrieved from: https://www.manifestno.com/.
-
-[Design Justice Network](https://designjustice.org/)
-- "The Design Justice Network is an international community of people and organizations who are committed to rethinking design processes so that they center people who are too often marginalized by design." 
-- [Design Justice Network Principles](https://designjustice.org/read-the-principles)
-- Sasha Constanza-Chock, [*Design Justice: Community-Led Practices to Build the Worlds We Need*](https://mitpress.mit.edu/books/design-justice) (MIT Press, 2020).
-
-[Data Feminism](datafeminism.io/)
-- "Data Feminism offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn’t, and about how those differentials of power can be challenged and changed."
-- [Data Feminism infographics](http://datafeminism.io/blog/book/data-feminism-infographic/) by Catherine D’Ignazio, Lauren Klein and Marcia Diaz. 2020
-- Data Feminism Reading Group [archived materials](http://datafeminism.io/blog/book/data-feminism-reading-group/)
-- Catherine D'Ignazio and Lauren F. Klein, [*Data Feminism*](https://direct.mit.edu/books/book/4660/Data-Feminism) (MIT Press, 2020)
-
-[Our Data Bodies](https://www.odbproject.org/)
-- Our Data Bodies is "a five-person team concerned about the ways our communities’ digital information is collected, stored, and shared by government and corporations. Based in marginalized neighborhoods in Charlotte, North Carolina, Detroit, Michigan, and Los Angeles, California, we look at digital data collection and our human rights, work with local communities, community orginizations, and social support networks, and show how different data systems impact re-entry, fair housing, public assistance, and community development."
-- Virginia Eubanks, [*Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*](https://us.macmillan.com/books/9781250074317) (St. Martin's Press, 2017)
-
-[Data for Black Lives](https://d4bl.org/)
-- "Data as protest. Data as accountability. Data as collective action."
+- [Feminist Data Manifest-No](https://www.manifestno.com/)
+  * "The Manifest-No is a declaration of refusal and commitment. It refuses harmful data regimes and commits to new data futures." 
+  * Cifor, M., Garcia, P., Cowan, T.L., Rault, J., Sutherland, T., Chan, A., Rode, J., Hoffmann, A.L., Salehi, N., Nakamura, L. (2019). Feminist Data Manifest-No. Retrieved from: https://www.manifestno.com/.
+- [Design Justice Network](https://designjustice.org/)
+  * "The Design Justice Network is an international community of people and organizations who are committed to rethinking design processes so that they center people who are too often marginalized by design." 
+  * [Design Justice Network Principles](https://designjustice.org/read-the-principles)
+  * Sasha Constanza-Chock, [*Design Justice: Community-Led Practices to Build the Worlds We Need*](https://mitpress.mit.edu/books/design-justice) (MIT Press, 2020).
+- [Data Feminism](datafeminism.io/)
+  * "Data Feminism offers strategies for data scientists seeking to learn how feminism can help them work toward justice, and for feminists who want to focus their efforts on the growing field of data science. But Data Feminism is about much more than gender. It is about power, about who has it and who doesn’t, and about how those differentials of power can be challenged and changed."
+  * [Data Feminism infographics](http://datafeminism.io/blog/book/data-feminism-infographic/) by Catherine D’Ignazio, Lauren Klein and Marcia Diaz. 2020
+  * Data Feminism Reading Group [archived materials](http://datafeminism.io/blog/book/data-feminism-reading-group/)
+  * Catherine D'Ignazio and Lauren F. Klein, [*Data Feminism*](https://direct.mit.edu/books/book/4660/Data-Feminism) (MIT Press, 2020)
+- [Our Data Bodies](https://www.odbproject.org/)
+  * Our Data Bodies is "a five-person team concerned about the ways our communities’ digital information is collected, stored, and shared by government and corporations. Based in marginalized neighborhoods in Charlotte, North Carolina, Detroit, Michigan, and Los Angeles, California, we look at digital data collection and our human rights, work with local communities, community orginizations, and social support networks, and show how different data systems impact re-entry, fair housing, public assistance, and community development."
+  * Virginia Eubanks, [*Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*](https://us.macmillan.com/books/9781250074317) (St. Martin's Press, 2017)
+- [Data for Black Lives](https://d4bl.org/)
+  * "Data as protest. Data as accountability. Data as collective action."
 
 # Additional Resources
 
-There are a WIDE range of texts and resources on data visualization. 
-
-This is a partial list of resources not mentioned above.
+There are a WIDE range of texts and resources on data visualization. This is a partial list of resources not mentioned above.
 
 ## Books
 
