@@ -3,6 +3,18 @@
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
+# Table of Contents
+- [Overview](#overview)
+- [Choosing a Chart Type](#choosing-a-chart-type)
+- [Working With Visual Cues](#working-with-visual-cues)
+- [Essential Visualization Elements](#essential-visualization-elements)
+- [Data Communication, Justice, and Power](#data-communication-justice-and-power)
+- [Additional Resources](#additional-resources)
+  * [Books](#books)
+  * [Websites and Blogs](#websites-and-blogs)
+  * [Podcasts](#podcasts)
+
+# Overview
 
 When first learning how to programatically generate data visualizations, it's easy to be overwhelmed by syntax nuances.
 
@@ -28,7 +40,7 @@ It also highlights work that grounds data visualization in the core tenents of i
 
 At its core, data visualization highlights or draws attention to aspects of an underlying dataset.
 
-FIGURE 1
+<p align="center"><a href="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_1.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_1.jpg?raw=true" /></a></p>
 
 Image source: A. Abela, [Extreme Presentation Method](http://extremepresentation.typepad.com/files/choosing-a-good-chart-09.pdf)
 
@@ -52,7 +64,7 @@ The [A. Abela graphic](http://extremepresentation.typepad.com/files/choosing-a-g
 Peter Aldhous's *Intro Data Viz* course (Fall 2016) includes useful questions to consider.
 - ["Data visualization: basic principles"](http://paldhous.github.io/ucb/2016/dataviz/week2.html)
 
-FIGURE 2
+<p align="center"><a href="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_2.png?raw=true" /></a></p>
 
 Image source: [Ferdio's DataVizProject](https://datavizproject.com/)
 
@@ -66,7 +78,7 @@ The wide range of customization or styling options when building a visualization
 
 We can think of these style elements as visual cues that can help a visualization achieve a desired communication or rhetorical goal.
 
-FIGURE 3
+<p align="center"><a href="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/data-viz-intro/blob/main/figures/Figure_3.png?raw=true" /></a></p>
 
 Image source: Peter Aldhous, ["Data visualization: basic principles"](http://paldhous.github.io/ucb/2016/dataviz/week2.html), *Intro Data Viz* (Fall 2016)
 
@@ -168,7 +180,7 @@ Things like alt text, plain-text tables, captions, narrative text, etc. can all 
 
 Axis Maps's [Colorbrewer2.0](https://colorbrewer2.org/) is a useful tool for finding accessible color palletes.
 
-# Data Visualization, Justice, and Power
+# Data Communication, Justice, and Power
 
 As scholar Virginia Eubanks addresses at length in [*Automating Inequality: How High-Tech Tools Profile, Police, and Punish the Poor*](https://us.macmillan.com/books/9781250074317) (St. Martin's Press, 2017), the United States has a long history of using its most cutting-edge science and technology to discriminate, marginalize, oppress, and surveil. The poorhouse and scientific charity of an earlier era have been replaced by digital tracking and automated decision-making systems like facial recognition and risk prediction algorithms.
 
@@ -228,15 +240,20 @@ This is a partial list of resources not mentioned above.
 - Edward Tufte, *Visual Explanations: Images and Quantities, Evidence and Narrative* (Graphics Press, 1997)
 - Edward Tufte, *Beautiful Evidence* (Graphics Press, 2006)
 
-## Other (blogs, websites, podcasts)
+## Websites and Blogs
 
 - Alberto Cairo, [The Functional Art](http://www.thefunctionalart.com/)
 - Nathan Yau, [FlowingData](https://flowingdata.com/)
 - Andy Kirk, [Visualising Data](https://www.visualisingdata.com/)
 - Nadiah Bremer, [Visual Cinnamon](https://www.visualcinnamon.com/blog/)
-- Enrico Bertini and Moritz Stefaner, [Data Stories](https://datastori.es/)
 - Cole Nussbaumer Knaflic, [Storytelling With Data](http://www.storytellingwithdata.com/)
 - [Information is Beautiful](https://informationisbeautiful.net/)
 - Kaiser Fung, [Junk Charts](https://junkcharts.typepad.com/)
 - The Economist, [Graphic Detail](https://www.economist.com/graphic-detail/)
 - Gregor Aisch, [Driven by Data](https://driven-by-data.net/)
+
+## Podcasts
+- Enrico Bertini and Moritz Stefaner, [Data Stories](https://datastori.es/)
+- Alli Torban, [Data Viz Today](https://dataviztoday.com/)
+- Cole Nussbaumer Knaflic, [Storytelling With Data](http://www.storytellingwithdata.com/podcast)
+- Lea Pica, [The Present Beyond Measure](http://leapica.com/podcast/)
