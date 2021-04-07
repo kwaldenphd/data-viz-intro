@@ -157,7 +157,7 @@ Data can be used to create communities, advance research, and expose injustice. 
 Understanding the fundamental relationship between data (visualization) and power prompts us to consider the impact data visualizations we create have.
 
 We could spend an entire semester addressing this historical context and considering how patterns of injustice and inequity relate to the work of data analysis and communication.
-- *ND students--Professor Walden's "Data Feminism" course does just this and is typically offered alternating fall semesters (2022, 2024).*
+- *ND students--Professor Walden's "Data Feminism" course does just this and is typically offered in the fall semester.*
 
 For now, a few resources that are leading the way in this area.
 - [Feminist Data Manifest-No](https://www.manifestno.com/)
