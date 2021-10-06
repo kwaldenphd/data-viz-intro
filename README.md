@@ -90,6 +90,9 @@ Meaningful visual cues are also true to the 'feel' of the data. This requires kn
 Summary statistics or descriptive statistics are a useful place to start.
 - Non-programming resources
   * [DataBasic.io](https://www.databasic.io/)
+  * [Tableau Public](https://public.tableau.com/s/)
+    * [Miriam Posner, "Getting Started With Tableau Public" tutorial](http://miriamposner.com/classes/dh201w19/tutorials-guides/data-visualization/getting-started-with-tableau-public/)
+    * [Prof. Walden's Tableau Public tutorial](https://github.com/kwaldenphd/football-structured-data#tableau)
 - Python resources
   * [Introduction to `pandas` tutorial](https://github.com/kwaldenphd/pandas-intro)
   * [EDA in `pandas` tutorial](https://github.com/kwaldenphd/eda-pandas)
