@@ -187,6 +187,7 @@ There are a WIDE range of texts and resources on data visualization. This is a p
 
 ## Books
 
+- Kenneth Field, *Thematic Mapping: 101 Inspiring Ways to Visualise Empirical Data* (ESRI Press, 2022)
 - Kieran Healy, *Data Visualization: A Practical Introduction* (Princeton University Press, 2019)
 - Andy Kirk, *Data Visualisation: A Handbook for Data Driven Design* (SAGE Publications, 2019)
 - Alberto Cairo, *The Truthful Art: Data, Charts, and Maps for Communication* (New Riders, 2016)
